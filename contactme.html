@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+  *{
+    margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #B0B0B0;
+  }
+  h1{
+    color:white;
+  }
+  contact-form {
+            background-color: #333333;
+            padding: 20px;
+            border: 1px solid #1E90FF;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .contact-form h3 {
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #1E90FF;
+            border-radius: 5px;
+            background-color: #444444;
+            color: #FFFFFF;
+        }
+
+        .contact-form button {
+            background-color: #1E90FF;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #FF4500;
+        }
+  .back-button{
+    margin-top: 30px;
+    height:40px;
+    background-color:green;
+    border:none;
+    border-radius:20px;
+  }
+  </style>
+</head>
+<body>
+  <h1>
+    Movies blog
+  </h1>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <h3>Get in Touch</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+  <p>
+    <a href="packed well.html"><button class="back-button">
+      Go back home
+    </button></a>
+  </p>
+</body>
+</html>
